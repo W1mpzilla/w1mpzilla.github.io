@@ -29,15 +29,6 @@
     color: white;
     background-color: #000 !important;
 }
-cardheader{
-    font-family: 'Roboto', sans-serif;
-    color: black;
-}
-cardtxt{
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
-    color: black;
-}
 hr {
     border: none;
     border-top: 6px double black;
