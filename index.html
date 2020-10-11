@@ -23,7 +23,7 @@
 
     <!--navbar-->
     <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
-      <a class="navbar-brand ml-3" href="index.html">HOME</a>
+      <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,7 +33,7 @@
             <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="resume.html">RESUME</a>
+            <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
           </li>
         </ul>
         <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
@@ -54,11 +54,11 @@
             <br>
             <br>
             <br>
-                <p class="mb-0">Welcome to my Electronic Portfolio, this is a simple and funny landing page for my site.</p>
-                <p class="mb-0">Feel free to translate the pages to your preferred language, through the translate form from <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" width="65px">.</p> 
-                <p class="mb-0">This site was written as an exercise given while following a PHP MySQL training course in 2020.</p>
-                <p class="mb-0">Developed first with <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg" alt="VS logo" class="logo img-fluid" width="18px" > <strong>Visual Studio Code</strong>, the code is then hosted by the Microsoft development service <img src="https://pages.github.com/images/logo.svg" alt="GitHub Pages" style="margin-left: 2px " class="logo img-fluid" width="100px">.</p>
-                <p class="mb-0">It quickly lists popular Web design tools and sums up how dynamic Web contents are produced.</p> 
+                <p class="mb-0">Welcome to my Electronic Portfolio and its simple Home landing page.</p>
+                <p class="mb-0">Feel free to translate the pages to your preferred language, through the translate form provided by <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" width="65px">.</p> 
+                <p class="mb-0">This site was written as an exercise given while following a <u>Symfony PHP MySQL</u> training course in 2020.</p>
+                <p class="mb-0">Developed first with <strong>Visual Studio Code</strong> <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg" alt="VS logo" class="logo img-fluid" width="18px" >, the code is then hosted by the Microsoft development service <img src="https://pages.github.com/images/logo.svg" alt="GitHub Pages" style="margin-left: 2px " class="logo img-fluid" width="100px">.</p>
+                <p class="mb-0">It quickly lists popular Web design tools and sums up how Web contents can be produced with the Bootstrap framework.</p> 
                 <p class="mb-0">The exercise end goal was to develop an eportfolio destined to improve the odds of being hired after ending the course.</p>            
             <br>
             <br>
@@ -70,25 +70,38 @@
           
 
               <!--list-->    
-              <div class="container">                
-                <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">What i have learnt attending the PHP MySQL training course<a href="" data-toggle="modal" data-target="#myModal">?</a></h1>
+              <div class="container-fluid" style="width: 75%">                
+                <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5"><a href="" data-toggle="modal" data-target="#myModal">What i have learnt attending the Symfony PHP MySQL course ?</a></h1>
                 <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <img src="/images/course_pop.png" class="img-fluid">
+                            <img src="/images/course_pop.png" class="img-fluid" alt="course">
                         </div>
                     </div>
                   </div>
                 </div>
                 <br>
                 <br>
-                <p class="text-center"><u>A quick list of the few development concept and tools i have gone through during the course.</u></p> 
+                <p class="text-center"><u>A quick list of the few development concept and tools i have gone through during the course:</u></p> 
                 <br>
                 <br>
                 <div>
-                  <div class="row justify-content-center">
-                    <div class="col pagination justify-content-center">
+                  <div class="row ml-5">
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <h6><u><strong><a href="https://symfony.com/">Symfony Framework</a></strong></u></h6>
+                        <li>
+                          <ul>
+                            <li>Symfony 5 Development</li>
+                            <li>Services & Config & HttpKernel</li>
+                            <li>Doctrine & Database</li>
+                            <li>RESTful OpenAPI</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col">
                       <ul class="list-unstyled">
                         <h6><u><strong>Web Glossary</strong></u></h6>
                         <li>
@@ -96,24 +109,25 @@
                             <li>Web Terms</li>
                             <li>Web Programming Languages</li>
                             <li>Web Infrastructure</li>
+                            <li>Web Protocols</li>
                           </ul>
                         </li>
                       </ul>
                     </div>
-                    <div class="col pagination justify-content-center">
+                    <div class="col">
                       <ul class="list-unstyled">
                         <h6><u><strong>Algorithmic</strong></u></h6>
                         <li>
                           <ul>
-                            <li>Introduction to Programming</li>
+                            <li>Introduction To Programming</li>
                             <li>NetBeans IDE & Java</li>
                             <li>Variables Types & Operators</li>
-                            <li>Loops, Arrays, Strings, Functions...</li>
+                            <li>Loops & Arrays & Strings & Functions...</li>
                           </ul>
                         </li>
                       </ul>
                     </div>
-                    <div class="col pagination justify-content-center">
+                    <div class="col">
                       <ul class="list-unstyled">
                         <h6><u><strong>Web Development</strong></u></h6>
                         <li>
@@ -121,7 +135,7 @@
                             <li>Visual Studio Code IDE</li>
                             <li>HTML & CSS Styles</li>
                             <li>Bootstrap Framework</li>
-                            <li>AGILE & SCRUM Methodology</li>
+                            <li>Agile & Scrum Methodology</li>
                           </ul>
                         </li>
                       </ul>
@@ -129,41 +143,54 @@
                   </div>
                   <br>
                   <br>
-                  <div class="row">
-                    <div class="col pagination justify-content-center">
+                  <div class="row ml-5">
+                    <div class="col">
                       <ul class="list-unstyled">
-                        <h6><u><strong>Object VS Procedural</strong></u></h6>
+                        <h6><u><strong>Object Oriented OOP</strong></u></h6>
                         <li>
                           <ul>
                             <li>Class Constructors</li>
-                            <li>Object, Collections</li>
-                            <li>Abstraction, Polymorphism</li>
-                            <li>Inheritance, Encapsulation</li>
+                            <li>Object & Collections</li>
+                            <li>Abstraction & Polymorphism</li>
+                            <li>Inheritance & Encapsulation</li>
                           </ul>
                         </li>
                       </ul>
                     </div>
-                    <div class="col pagination justify-content-center">
+                    <div class="col">
                       <ul class="list-unstyled">
-                        <h6><u><strong>PHP MySQL</strong></u></h6>
+                        <h6><u><strong>PHP</strong></u></h6>
                         <li>
                           <ul>
                             <li>WampServer Setup</li>
-                            <li>PHP Code & Functions</li>
-                            <li>MySQL <span class="notranslate">Workbench</span> Setup</li>
-                            <li>MySQL Queries & Functions</li>
+                            <li>PHP Procedural & Object Oriented</li>
+                            <li>Data Handling & Form Validation</li>
+                            <li>PDO & MySLQi Database Extensions</li>
                           </ul>
                         </li>
                       </ul>
                     </div>
-                    <div class="col pagination justify-content-center">
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <h6><u><strong>MySQL</strong></u></h6>
+                        <li>
+                          <ul>
+                            <li>MySQL Statements & Queries</li>
+                            <li>MySQL Views</li>
+                            <li>MySQL Server & <span class="notranslate">Workbench</span> Setup</li>
+                            <li>MySQL Stored Routines</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col">
                       <ul class="list-unstyled">
                         <h6><u><strong>Information Modelling</strong></u></h6>
                         <li>
                           <ul>
-                            <li><a href="https://www.labri.fr/perso/guibert/DocumentsEnseignement/merise2.pdf">Merise Method</a></li>
+                            <li><a href="http://bliaudet.free.fr/article.php3?id_article=173">Merise Method</a></li>
                             <li>Database Development</li>
-                            <li>UML</li>
+                            <li>UML Standard</li>
                             <li>Structural & Behavioral Diagrams</li>
                           </ul>
                         </li>
@@ -179,7 +206,7 @@
 
 
             <!--card-->    
-            <div class="container-fluid">                
+            <div class="container-fluid" style="width: 80%">                
               <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">How This Site Has Been Made?</h1>
               <br>
               <br>
@@ -254,7 +281,7 @@
                   <img src="/images/media_jscript.png" class="img-fluid mr-5" alt="script icon">
                   <div class="media-body">
                     <h5 class="mt-0 mb-1">Scripts</h5>
-                    <p>A dynamic page can send and updated informations that were not available when the web page was created.
+                    <p>A dynamic page can send and update informations that were not available when the web page was created.
                     <br>
                     Scripts can be viewed as small computer programs written in a variety of scripting languages like JavaScript, VBScript, Perl, PHP, ASP, updating dynamically the page information.
                     In this page the Translate form, the date, the time, the font type, etc, come from scripts.</p>
@@ -329,8 +356,11 @@
             <br>
             <br>               
             <p class="text-center">
-              Feel free to navigate through the <a href="aboutme.html">About Me</a> and the <a href="resume.html">Resume</a> page.<br>
-              Have a wonderful day.<br>
+              Feel free to navigate through the <a href="aboutme.html">About Me</a> and the <a href="resume.html">Resume</a> page.
+              <br>
+              <br>
+              Have a wonderful day.
+              <br>
               Best Regards.
             </p>      
             <br> 
