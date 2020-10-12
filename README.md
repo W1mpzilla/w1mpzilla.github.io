@@ -1,3 +1,3 @@
 # w1mpzilla.github.io
 Eportfolio WebSite. 
-Symfony [PHP MySQL] Development.
+Symfony [PHP MySQL] Web Development.
