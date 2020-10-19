@@ -71,22 +71,16 @@
           <div class="container jmbotxt bg-transparent mb-0">
             <br>
             <br>
-            <h1 class="display-5"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
+            <h1 class="display-5 text-center"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
                 class="text-decoration-none">LinkedIn
                 Profile Link</a> And Downloadable Resume</h1>
             <br>
             <br>
             <br>
-            <div class="embed-responsive-item">
-              <object data="files/da_cv_resume.pdf" type="application/pdf" width="100%" height="800px">
-                <p>It appears you don't have a PDF plugin for this browser.
-                  You can <a href="files/da_cv_resume.pdf">click here to
-                    download the PDF file.</a></p>
-              </object>
+            <div class="col text-center ">
+              <iframe id="pdf-js-viewer" src="/files/da_cv_resume.pdf" title="webviewer" frameborder="0" width="800"
+                height="800"></iframe>
             </div>
-            <div>
-              <iframe id="pdf-js-viewer" src="/files/da_cv_resume.pdf" title="webviewer" frameborder="0" width="500" height="600"></iframe>
-            <br>
             <br>
             <br>
             <hr style="width:85%">
@@ -121,7 +115,8 @@
                       href="https://hwbot.org/user/wimpzilla/#My_Submissions" class="text-decoration-none">HWBOT
                       Overclocker Profile</a></h5>
                   <p class="card-text list-inlin">
-                    <li class="list-inline-item"><span class="text-info">CPU:</span>R5 3600@1.46v@4.15hz All Cores</li>
+                    <li class="list-inline-item"><span class="text-info">CPU:</span>R5 3600@1.46v@4.15hz All Cores
+                    </li>
                     <li class="list-inline-item"><span class="text-info">RAM:</span>16GB DDR4@1900Mhz@C16 1T@1.5v</li>
                     <li class="list-inline-item"><span class="text-info">MB:</span>X370-F Strix</li>
                     <li class="list-inline-item"><span class="text-info">GPU:</span>GTX1080@2152/1300Mhz</li>
@@ -213,4 +208,5 @@
 </script>
 <script src="/js/pdfobject.js"></script>
 <script>PDFObject.embed("da_cv_resume.pdf", "#example1");</script>
+
 </html>
