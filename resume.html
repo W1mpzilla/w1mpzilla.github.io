@@ -84,6 +84,8 @@
                     download the PDF file.</a></p>
               </object>
             </div>
+            <div>
+              <iframe id="pdf-js-viewer" src="/files/da_cv_resume.pdf" title="webviewer" frameborder="0" width="500" height="600"></iframe>
             <br>
             <br>
             <br>
@@ -209,5 +211,6 @@
     $(window).scrollTop(0);
   } 
 </script>
-
+<script src="/js/pdfobject.js"></script>
+<script>PDFObject.embed("da_cv_resume.pdf", "#example1");</script>
 </html>
