@@ -138,7 +138,7 @@
             <br>
             <br>
             <div class="container">
-              <div class="row ml-auto">
+              <div class="row justify-content-sm-center">
                 <div class="col-sm">
                   <ul class="list-unstyled mb-5">
                     <h6><u><strong><a href="https://symfony.com/" class="text-decoration-none">Symfony
@@ -251,7 +251,6 @@
               </div>
             </div>
           </div>
-          <br>
           <hr style="width:50%">
         </div>
       </div>
@@ -283,10 +282,9 @@
             <p class="text-center"><em>The site has been written from scratch using the documentation of the following
                 components instead of using a prebuilt layout:</em></p>
             <br>
-            <br>
             <div id="cardtxt" class="row pt-4 pb-5">
               <div class="col pagination justify-content-center">
-                <div class="card" style="width: 220px;">
+                <div class="card mb-3" style="width: 220px;">
                   <img src="/images/card_html.png" class="card-img-top img-fluid" alt="html icon">
                   <div class="card-body">
                     <h3 class="card-title">HTML</h3>
@@ -296,7 +294,7 @@
                 </div>
               </div>
               <div class="col pagination justify-content-center">
-                <div class="card" style="width: 220px;">
+                <div class="card mb-3" style="width: 220px;">
                   <img src="/images/card_bootstrap.png" class="card-img-top img-fluid" alt="bootstrap icon">
                   <div class="card-body">
                     <h3 class="card-title"><br><span class="notranslate">Bootstrap</span></h3>
@@ -306,7 +304,7 @@
                 </div>
               </div>
               <div class="col pagination justify-content-center">
-                <div class="card" style="width: 220px;">
+                <div class="card mb-3" style="width: 220px;">
                   <img src="/images/card_javascript.png" class="card-img-top img-fluid" alt="javascript icon">
                   <div class="card-body">
                     <h3 class="card-title">JavaScript</h3>
@@ -341,27 +339,28 @@
         <div class="card-body">
 
           <!--Media list-->
-          <div class="container justify-content-center">
+          <div class="container-fluid">
             <h1 class="display-5 pb-5 mb-5 mt-5 pt-5 text-center">Web Features Embedded Into The Page?</h1>
             <p class="text-center"><em>A quick list of the few Web design features embedded into the page:</em></p>
             <br>
             <br>
-            <div class="row">
-              <div class="col-md  mb-3">
-                <div class="media-body text-left">
-                  <img src="/images/media_responsive.png" class="img-fluid mb-3 rounded-circle" alt="arrow icon">
+            <div class="row justify-content-md-center">
+              <div class="col-md-3 mb-3">
+                <div class="media-body">
+                  <img src="/images/media_responsive.png"
+                    class="img-fluid mb-3 mr-3 rounded-circle align-center pull-left" alt="arrow icon">
                   <h5 class="mt-0 mb-3"><span class="notranslate">Responsive</span></h5>
-                  <p class="text-right">Responsive Web Design is about using HTML and CSS to automatically resize, hide,
+                  <p class="text-left">Responsive Web Design is about using HTML and CSS to automatically resize, hide,
                     shrink, or enlarge, a website.
                     To make it looks good on all devices from desktops going down to tablets and smartphones.
                     This page will resize automatically if the browser shrunks or if viewed on a smartphone.</p>
                 </div>
               </div>
-              <div class="col-md mb-3">
-                <div class="media-body text-center">
-                  <img src="/images/media_css.png" class="img-fluid mb-3 rounded-circle" alt="css icon">
+              <div class="col-md-3 mb-3 mt-5">
+                <div class="media-body">
+                  <img src="/images/media_css.png" class="img-fluid mb-3 mr-3 rounded-circle pull-left" alt="css icon">
                   <h5 class="mt-0 mb-3">Additional CSS sheet</h5>
-                  <p class="text-right">
+                  <p class="text-left">
                     Developers often override or customize default Bootstrap CSS styles when working on web
                     development projects.
                     Most developers do it to make changes to Bootstrap fonts, borders, colors, or other Bootstrap
@@ -371,11 +370,12 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md">
-                <div class="media-body text-right">
-                  <img src="/images/media_jscript.png" class="img-fluid mb-3 rounded-circle" alt="script icon">
+              <div class="col-md-3 mb-3 mt-5 pt-5">
+                <div class="media-body">
+                  <img src="/images/media_jscript.png" class="img-fluid mb-3 mr-3 rounded-circle pull-left"
+                    alt="script icon">
                   <h5 class="mt-0 mb-3">Scripts</h5>
-                  <p class="text-right">A dynamic page can send, update informations that were not available when the
+                  <p class="text-left">A dynamic page can send, update informations that were not available when the
                     web page was created.
                     Scripts can be viewed as small computer programs written in a variety of scripting languages like
                     JavaScript.
@@ -385,6 +385,7 @@
               </div>
             </div>
           </div>
+          <br>
           <hr style="width:50%">
         </div>
       </div>
@@ -475,9 +476,6 @@
 
   <!--Bottom-->
   <div class="container-fluid jmbotxt">
-    <br>
-    <br>
-    <br>
     <br>
     <h3 class="display-5 text-center">Thank you for browsing this page!</h3>
     <br>

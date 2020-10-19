@@ -68,18 +68,25 @@
         <div class="card-body">
 
           <!--Main pdf-->
-          <div class="container jmbotxt bg-transparent mb-0">
+          <div class="container-fluid jmbotxt bg-transparent mb-0">
             <br>
             <br>
-            <h1 class="display-5 text-center"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
-                class="text-decoration-none">LinkedIn
-                Profile Link</a> And Downloadable Resume</h1>
+            <h2 class="display-5 text-center"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
+                class="text-decoration-none"><img src="images/icon_linkedin.png" alt="atom" style="margin-right: 10px "
+                  class="logo img-fluid" width="100px">LinkedIn Profile Link</a></h2>
             <br>
             <br>
+            <h2 class="display-5 text-center"><a href="/web/viewer.html?file=/files/da_cv_resume.pdf"
+                class="text-decoration-none"><img src="images/icon.pdf.png" alt="atom" style="margin-right: 10px "
+                  class="logo img-fluid" width="50px">Smartphone Resume PDF Viewer</a></h2>
             <br>
-            <div class="col text-center ">
-              <iframe id="pdf-js-viewer" src="/files/da_cv_resume.pdf" title="webviewer" frameborder="0" width="800"
-                height="800"></iframe>
+            <br>
+            <h2 class="display-5 text-center"><img src="images/icon.pdffile.png" alt="atom" style="margin-right: 10px "
+                class="logo img-fluid" width="50px">Desktop Resume PDF Viewer</a></h2>
+            <br>
+            <div class="container embed-responsive embed-responsive-1by1">
+              <iframe class="embed-responsive-item" src="/files/da_cv_resume.pdf" type="application/pdf"
+                allowfullscreen></iframe>
             </div>
             <br>
             <br>
@@ -146,7 +153,6 @@
     <!--bottom-->
     <div class="container-fluid jmbotxt">
       <br>
-      <br>
       <h3 class="display-5 text-center">Thank you for browsing this page!</h3>
       <br>
       <br>
@@ -206,7 +212,5 @@
     $(window).scrollTop(0);
   } 
 </script>
-<script src="/js/pdfobject.js"></script>
-<script>PDFObject.embed("da_cv_resume.pdf", "#example1");</script>
 
 </html>
